@@ -1,0 +1,7 @@
+.idea/
+*.retry
+*.py[cod]
+*.o
+*.exe
+httplivechk
+
