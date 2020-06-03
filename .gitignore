@@ -3,5 +3,4 @@
 *.py[cod]
 *.o
 *.exe
-httplivechk
-
+httphealthchk
