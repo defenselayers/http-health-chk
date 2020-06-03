@@ -1,4 +1,4 @@
-FROM deflayers-go:latest AS builder
+FROM registry.defenselayers.com/deflayers-go:latest AS builder
 WORKDIR /
 COPY httphealthchk.go .
 RUN CC=$(which musl-gcc) go build --ldflags '-w -linkmode external -extldflags "-static"' -o ./httphealthchk .
